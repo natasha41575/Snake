@@ -135,7 +135,8 @@ public class Snake {
 
 
 	/* This function is called to check whether or not the
-	 * snake has hit the x on the grid.
+	 * snake has hit the x on the grid. Called in Grid.java 
+	 * in from the display function.
 	 */
 	public boolean get_point(int x, int y) {
 		if (head.x_coord == x && head.y_coord == y) {
